@@ -8,14 +8,14 @@
 
 <div id="albums"></div>
 
-<script src="../dist/spotify-wrapper.umd.min.js"></script>
+<script src="../dist/spotify-wrapper.umd.js"></script>
 
 <script>
   const spotify = new SpotifyWrapper({
-    token: 'BQAvnfpiNS3Jw8NA8VT56xtmHmIwyLVd9S1qLu6-zDN-hARckKKcqbsFc8U2BmDM05sjC9uulBKPLNG7mZpnDdtVw4YO13UB6R5TfOEaUbh-NteOruBzJVBRH-whR0aPTTaQvMjsM7AAuqgYRAs'
+    token: 'BQBjZwUQ4pFppu-udzLo6mE0tiWV56oiQ_JozBBI5P-t9lRtZxrbAXhhATbyYQUoWzRlnBhAl8q5HwVuK0v6BqoVjMDOYFImQRlhxvrr9Nu8dkrgNaM-jYGWIziWLyhAra4tV2XFJ338qJZ9ujyAI0sO4rIEdSHeE5FKPtD4DDaCxsY'
   })
 
-  const albums = spotify.search.albums('Soundgarden');
+  const albums = spotify.search.albums('Projota');
   const albumsEl = document.getElementById('albums');
 
   albums
