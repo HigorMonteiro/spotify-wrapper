@@ -2,7 +2,6 @@
 
 [![Build Status](https://travis-ci.com/HigorMonteiro/spotify-wrapper.svg?branch=master)](https://travis-ci.com/HigorMonteiro/spotify-wrapper)
 [![Coverage Status](https://coveralls.io/repos/github/HigorMonteiro/spotify-wrapper/badge.svg?branch=master)](https://coveralls.io/github/HigorMonteiro/spotify-wrapper?branch=master)
-
 A wrapper to work with the [Spotify Web API](https://developer.spotify.com/web-api/).
 
 ## Browser Support
@@ -20,7 +19,7 @@ This library depends on [fetch](https://fetch.spec.whatwg.org/) to make requests
 ## Installation
 
 ```sh
-$ npm install spotify-wrapper --save
+$ npm install spotify-wrapper-es6 --save
 ```
 
 ## How to use
@@ -29,7 +28,7 @@ $ npm install spotify-wrapper --save
 
 ```js
 // to import a specific method
-import SpotifyWrapper from 'spotify-wrapper';
+import SpotifyWrapper from 'spotify-wrapper-es6';
 
 const spotify = new SpotifyWrapper({
   token: 'YOUR_TOKEN_HERE'
@@ -42,7 +41,7 @@ spotify.search.artists('Incubus');
 ### CommonJS
 
 ```js
-const SpotifyWrapper = require('spotify-wrapper').default;
+const SpotifyWrapper = require('spotify-wrapper-es6').default;
 
 const spotify = new SpotifyWrapper({
   token: 'YOUR_TOKEN_HERE'
